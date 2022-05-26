@@ -1,0 +1,5 @@
+name = input('Qual é o seu nome?')
+hour = input(int('Que horas são agora? (apenas horas, sem minutos)'))
+place = input('Onde você está agora?')
+print('Oi {}, seja bem vindo(a) à(ao) {}, agora são {} horas' .format(name, place, hour))
+print('Até mais!')
